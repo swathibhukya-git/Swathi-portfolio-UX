@@ -1,8 +1,178 @@
 <!DOCTYPE html>
-<html>
-  <head><meta charset="utf-8"><title>It works!</title></head>
-  <body style="font-family:sans-serif; padding:2rem">
-    <h1>It works! 🌸</h1>
-    <p>If you can see this, GitHub Pages is configured correctly.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swathi Bhukya | Design + UX + Visualization</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #faf9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #ffffff;
+      box-shadow: 0 2px 10px rgba(120, 91, 166, 0.1);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.3rem;
+      color: #7a5af5;
+      margin: 0;
+      font-weight: 600;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #444;
+      margin: 0 1rem;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #7a5af5;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 4rem auto;
+      padding: 0 1rem;
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 10px rgba(122, 90, 245, 0.08);
+    }
+
+    h2 {
+      color: #5c469c;
+      border-bottom: 2px solid #e6defc;
+      padding-bottom: 0.5rem;
+    }
+
+    p {
+      color: #4a4a4a;
+    }
+
+    .project {
+      background: #f7f4fe;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 14px rgba(122, 90, 245, 0.15);
+    }
+
+    .project h3 {
+      color: #7a5af5;
+      margin-top: 0;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      background: #efe9fc;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid #d7c8f7;
+      font-size: 0.9rem;
+      color: #5b548a;
+    }
+
+    .contact-info a {
+      color: #7a5af5;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌸 Swathi Bhukya</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Design + UX + Visualization</h2>
+    <p>Designing intuitive, human-centered digital experiences that bridge creativity and technology.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi 👋 I’m <strong>Swathi Bhukya</strong>, a Master’s student in Computer Science at the <strong>New York Institute of Technology</strong>, passionate about crafting elegant, human-focused design systems and visual documentation.</p>
+    <p>With 4 years of experience as a Software Engineer at Tata Consultancy Services and Cognizant Technology Solutions, I blend UI/UX design, visualization, and technical storytelling to make complex systems simple and beautiful.</p>
+    <p><strong>Focus Areas:</strong> UX/UI Design · Illustration · Onboarding Flows · User Documentation · Data Visualization · Product Storytelling</p>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+
+    <div class="project">
+      <h3>🧭 Smart Portal UI Redesign</h3>
+      <p><strong>Role:</strong> UX Designer & Developer | <strong>Tools:</strong> Figma · PowerApps · Adobe XD</p>
+      <p>Redesigned an enterprise portal interface to improve onboarding and accessibility, reducing user support tickets by 40% and boosting adoption rate.</p>
+      <img src="assets/placeholder-smartportal.png" alt="Smart Portal UI mockup">
+    </div>
+
+    <div class="project">
+      <h3>🧩 Interactive Documentation Guide</h3>
+      <p><strong>Role:</strong> Visual Designer | <strong>Tools:</strong> Adobe Illustrator · InDesign · Figma</p>
+      <p>Developed illustrated user guides and visual documentation, improving user self-service experience and cutting setup time by ~30%.</p>
+      <img src="assets/placeholder-docguide.png" alt="Documentation mockup">
+    </div>
+
+    <div class="project">
+      <h3>📊 Data Insights Dashboard</h3>
+      <p><strong>Role:</strong> UI/UX Designer | <strong>Tools:</strong> Power BI · Figma</p>
+      <p>Created a visually balanced KPI dashboard to support business leaders with faster decision-making and improved clarity.</p>
+      <img src="assets/placeholder-dashboard.png" alt="Dashboard mockup">
+    </div>
+
+    <div class="project">
+      <h3>⚙️ Automation Flow Visualization</h3>
+      <p><strong>Role:</strong> RPA Designer & Process Illustrator | <strong>Tools:</strong> Power Automate · Illustrator</p>
+      <p>Visualized automation processes to help non-technical teams understand workflows, reducing documentation time by 25%.</p>
+      <img src="assets/placeholder-automation.png" alt="Automation flow diagram">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:swathibhukya2424@gmail.com">swathibhukya2424@gmail.com</a></p>
+    <p>📱 <a href="tel:+15519980393">+1 (551) 998-0393</a></p>
+    <p>📍 New York, NY</p>
+    <p>📎 <a href="resume.pdf" target="_blank" rel="noopener">Download Resume</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Swathi Bhukya | Designed with 💜 for creativity & technology</p>
+  </footer>
+</body>
 </html>
